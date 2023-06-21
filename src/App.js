@@ -3,16 +3,16 @@ import './App.css'
 import SingleCard from './components/Singlecard'
 
 const cardImages = [
-  { "src": "public/img/helmet-1.png", matched: false },
-  { "src": "public/img/potion-1.png" , matched: false},
-  { "src": "public/img/ring-1.png" , matched: false},
-  { "src": "public/img/scroll-1.png", matched: false },
-  { "src": "public/img/shield-1.png", matched: false },
-  { "src": "public/img/sword-1.png", matched: false },
+  { "src": "/img/helmet-1.png", matched: false },
+  { "src": "/img/potion-1.png" , matched: false},
+  { "src": "/img/ring-1.png" , matched: false},
+  { "src": "/img/scroll-1.png", matched: false },
+  { "src": "/img/shield-1.png", matched: false },
+  { "src": "/img/sword-1.png", matched: false },
 ]
 
 function App() {
-  const [cards, setCards] = useState([])
+  const [cards, setCards] = useSta
   const [ turns, setTurns] = useState(0) 
   const [choiceOne, setChoiceOne] = useState(null) 
   const [choiceTwo, setChoiceTwo] = useState(null) 
